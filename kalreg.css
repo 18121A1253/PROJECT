@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+	
+	background-color: #92a8d1;
+	
+}
+.container {
+    max-width: 1500px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+	
+	position: relative;
+    margin: 5% auto;
+    height: 850px;
+    width: 500px;
+    background: #fff;
+    opacity: 60%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+	
+}
+h1{
+	padding-bottom: 20px;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="password"]
+{
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 300px;
+    height: 32px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #aaa;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.2s ease;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:none;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+font-size:20px;
+  text-align: center;
+  padding: 14px 110px;
+  text-decoration: none;
+
+}
+
+li a:hover {
+  background-color: none;
+}
+a:link
+{
+color:green;
+background-color:none;
+text-decoration:none;
+}
+
